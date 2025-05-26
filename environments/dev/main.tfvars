@@ -55,7 +55,7 @@ aks = {
     app_node_pool = {
       one = {
         max_count            = 10
-        min_count            = 1
+        min_count            = 2
         vm_size              = "standard_d2_v4"
         auto_scaling_enabled = true
       }
