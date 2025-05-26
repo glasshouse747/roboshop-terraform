@@ -7,7 +7,7 @@ resource "azurerm_kubernetes_cluster" "main" {
   default_node_pool {
     name           = "default"
     node_count     = 2
-    vm_size        = "Standard_D4vds_5"
+    vm_size        = "Standard_D2_v2"
     vnet_subnet_id = "/subscriptions/eb986b09-9743-4aa1-b10f-53da04d8708c/resourceGroups/my-first-rg/providers/Microsoft.Network/virtualNetworks/test-network/subnets/default"
   }
 
