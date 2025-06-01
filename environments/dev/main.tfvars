@@ -58,6 +58,9 @@ aks = {
         min_count            = 2
         vm_size              = "standard_d2_v4"
         auto_scaling_enabled = true
+        node_labels = {
+          "project/name" = "roboshop"
+        }
       }
     }
   }
